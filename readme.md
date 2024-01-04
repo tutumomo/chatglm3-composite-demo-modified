@@ -24,15 +24,15 @@
 执行以下命令新建一个 conda 环境并安装所需依赖：
 
 ```bash
-conda create -n chatglm3-demo python=3.8
-conda activate chatglm3-demo
+conda create -n chatglm3 python=3.8
+conda activate chatglm3
 pip install -r requirements.txt
 ```
 
 此外，使用 Code Interpreter 还需要安装 Jupyter 内核：
 
 ```bash
-ipython kernel install --name chatglm3-demo --user
+ipython kernel install --name chatglm3 --user
 ```
 
 
